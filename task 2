@@ -1,0 +1,32 @@
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> #python day 2 task
+>>> #1
+>>> a=b=c=3
+>>> print(a/10)
+0.3
+>>> print(b*50)
+150
+>>> print(c+60)
+63
+>>> #2
+>>> str="trust"
+>>> x=str.replace("u","g")
+>>> print(x)
+trgst
+>>> #3
+>>> a=3 #int datatype
+>>> b=6.3#float datatype
+#convert int to float
+>>> x=float(a)
+#convert flaot to int
+>>> y=int(b)
+>>> print(x)
+3.0
+>>> print(y)
+6
+>>> print(type(x))
+<class 'float'>
+>>> print(type(y))
+<class 'int'>
+>>> 
