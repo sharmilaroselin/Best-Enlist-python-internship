@@ -1,0 +1,39 @@
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> #python day 5 task
+>>> #1
+>>>#Addition 
+>>> def addition(a,b):
+	add=a+b;
+	print("addition of two numbers:",a+b)
+  addition(6,3)
+addition of two numbers: 9
+
+>>># Subraction 
+>>> def subraction(a,b):
+	sub=a-b
+	print("subraction of two numbers:",a-b)
+  subraction(6,3)
+subraction of two numbers: 3
+
+>>># Division 
+>>> def division(a,b):
+	div=a/b
+	print("division of two numbers:",a/b)
+  division(6,3)
+division of two numbers: 2
+
+>>># Multiplication 
+>>> def  multiplication(a,b):
+	mul=a*b
+	print("multipication of two numbers:",a*b)
+  multiplication(6,3)
+multipication of two numbers: 18
+
+>>> #2)create a function covid()& it should accept patient name,and body temperature,by default the body temperature should be 98 degree
+
+def covid(patient_name,body_temperature):
+	print("covid 19:"+patient_name+","+body_temperature)
+covid('sharmi','97 degree')
+covid 19:sharmi,97 degree
+>>>
