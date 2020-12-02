@@ -1,0 +1,66 @@
+#python day 8 task
+#EX 1
+#Name error
+try:
+    raise NameError('number')
+except NameError:
+    print("The exception demolished")
+
+#Indexerror
+L=list(range(0,10))
+try:
+    print(L[30])
+except:
+    print("Error handled")
+
+#ZeroDivisionError
+try:
+    c=6/0
+    print(c)
+except:
+    print("The number cannot divide by zero")
+ #EX2
+print("Simple Calculator")
+print("Select the operation to be performed:")
+operation = input("Enter operator to use:")
+opr_1 = int(input("Enter first number: "))
+opr_2 = int(input("Enter second number: "))
+try:
+    if operation == '+':
+       print(opr_1,"+",opr_2,"=", opr_1+opr_2)
+    elif operation == '-':
+       print(opr_1,"-",opr_2,"=", opr_1-opr_2)
+    elif operation == '*':
+       print(opr_1,"*",opr_2,"=", opr_1*opr_2)
+    elif operation == '/':
+       print(opr_1,"/",opr_2,"=", opr_1/opr_2)
+    else:
+       print("Please enter a valid operation")
+except Exception as e:
+            print("Error : {}".format(str(e)))
+  #OUTPUT
+Simple Calculator
+Select the operation to be performed:
+2 + 4 = 6
+#EX3
+try:
+  print(x)
+except NameError:
+  print("Variable x is not defined")
+except:
+  print("Other Error")
+  #OUTPUT
+Variable x is not defined
+
+EX 4:
+Whenever there is no need for error to be handled ,try-except scenario is not required.
+#EX 5:
+
+x = 10
+try:
+    x = int(input())
+    print(x)
+except:
+    print("Error no Number was entered")
+#OUTPUT
+Error no Number was entered
