@@ -1,0 +1,24 @@
+# Ex1
+import list as l
+l.my_list.append(99)
+print(l.my_list)
+#output
+[1, 5, 8, 3, 54, 22, 99]
+# EX2
+import pandas as pd
+# EX 3
+import random as r
+x = r.randint(1, 100)
+print(x)
+y = r.randint(1, 100)
+print(y)
+z = r.randint(1, 100)
+print(z)
+#OUTPUT
+38
+62
+42
+In [ ]:
+#EX  4
+import sys
+sys.path
