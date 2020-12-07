@@ -1,0 +1,36 @@
+#python day 11 task
+#EX 1
+list1=["class","service","amazon","game"]
+list2=["room","center","prime","center"]
+merge=list(zip(list1,list2))
+print("The zipped list  :",merge)
+
+output:
+The zipped list  : [('class', 'room'), ('true', 'caller'), ('amazon', 'prime'), ('game', 'center')]
+ 
+ #EX 2
+nums = [x for x in range(1, 8)]
+nums1 = [34, 32, 55, 234, 546, 45, 675, 32]
+zipped_list = list(zip(nums, nums1))
+print(zipped_list)
+[(1, 34), (2, 32), (3, 55), (4, 234), (5, 546), (6, 45), (7, 675)]
+#EX 3
+nums=list(range(10,0,-1))
+print("before sorting :",nums)
+nums.sort()
+print("after sorting :",nums)
+
+output:
+before sorting : [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+after sorting : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+
+Ex 4
+list1=list(range(1,10))
+even_number=list(filter((lambda x:x%2==0),list1))
+print(even_number)
+odd_number=list(filter((lambda x:x%2!=0),list1))
+print(odd_number)
+
+output:
+[2, 4, 6, 8]
+[1, 3, 5, 7, 9]
