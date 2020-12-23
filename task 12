@@ -1,0 +1,19 @@
+#python day 12 task
+import json
+data ={ 
+    "Name" : "Vishal", 
+    "Age" : 19, 
+    "CGPA" : 7.93, 
+    "ID" : "2123",
+    "List" : ["ListObj1","ListObj2"],
+    "Tuple" : ("TupleObj1","TupleObj2"),
+    "Boolean" : False,
+    "NoneType" : None
+}
+json_object = json.dumps(data, indent = 4) 
+ 
+with open("sample.json", "w") as outfile: 
+    outfile.write(json_object)
+
+print("Created json files successfully")
+Created json files successfully
